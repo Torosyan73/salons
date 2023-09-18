@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="салон ресниц, брови, уход за ресницами, дизайн бровей, макияж ресниц, ламинирование ресниц, окрашивание бровей, уход за взглядом, мастера ресниц, индивидуальный подход, профессиональные услуги, ресницы объемом, красота, уход за бровями">
+    <meta name="description" content="Добро пожаловать в наш салон ресниц и бровей! Мы предоставляем профессиональные услуги формирования, дизайна и ухода за ресницами и бровями. Наши мастера помогут вам достичь идеального вида и подчеркнуть вашу красоту. Записывайтесь к нам и окунитесь в мир ухода за вашим взглядом.">
+    <title>Студия Маргариты Кочуровой</title>
+    <link rel="stylesheet" href="./swiper/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/icons/eyelashes.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500&family=Montserrat:wght@300;400&family=Nunito:wght@300;400&family=Source+Sans+3&display=swap" rel="stylesheet">
+    <link href="./img/icons/architecture.svg" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__row">
+                <div class="logo">
+                    <img src="./img/logo/header-logo.png" alt="Студия Маргариты Кочуровой" class="logo__img" width="240">
+                </div>
+                <div class="nav__list-wrapper">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#about-us" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#price-services" class="nav__link">Услуги и цены</a></li>
+                        <li class="nav__item"><a href="#our-team" class="nav__link">Наша команда</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Обучение</a></li>
+                        <li class="nav__item"><a href="#our-work" class="nav__link">Наши работы</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                    <div class="nav__socials">
+                        <a href="https://api.whatsapp.com/send/?phone=79530882595&text&type=phone_number&app_absent=0" class="nav__socials-link">
+                            <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav__socials__img">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                                <g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.4145 14.3822C17.1173 14.2334 15.6564 13.5147 15.384 13.4153C15.1117 13.3162 14.9136 13.2667 14.7154 13.5641C14.5173 13.8615 13.9478 14.5309 13.7745 14.7293C13.6012 14.9275 13.4278 14.9524 13.1307 14.8036C12.8335 14.6549 11.876 14.3411 10.7411 13.3287C9.85769 12.5407 9.26129 11.5677 9.08799 11.2702C8.91461 10.9727 9.06943 10.8119 9.21822 10.6637C9.35195 10.5306 9.51546 10.3166 9.66399 10.1431C9.81257 9.96961 9.86209 9.84558 9.96114 9.6474C10.0602 9.44899 10.0107 9.27553 9.93634 9.12682C9.86209 8.97808 9.26779 7.51537 9.02016 6.92034C8.77895 6.34096 8.53397 6.41944 8.35157 6.41024C8.17844 6.40165 7.98013 6.39981 7.78207 6.39981C7.58397 6.39981 7.26201 6.47418 6.98958 6.77159C6.71727 7.06908 5.94959 7.78806 5.94959 9.25059C5.94959 10.7133 7.01434 12.1263 7.16296 12.3246C7.31158 12.523 9.25829 15.5244 12.2393 16.8116C12.9482 17.1178 13.5017 17.3006 13.9333 17.4375C14.6451 17.6637 15.2929 17.6318 15.805 17.5552C16.3759 17.47 17.5631 16.8364 17.8107 16.1424C18.0583 15.4481 18.0583 14.8532 17.984 14.7293C17.9097 14.6053 17.7116 14.5309 17.4145 14.3822ZM11.9925 21.7853H11.9886C10.2148 21.7846 8.47517 21.3081 6.9575 20.4075L6.59654 20.1932L2.85541 21.1746L3.85395 17.527L3.61899 17.153C2.62951 15.5792 2.10688 13.7603 2.10765 11.8925C2.10983 6.44257 6.54415 2.0086 11.9965 2.0086C14.6367 2.00954 17.1185 3.03905 18.9849 4.9075C20.8511 6.77582 21.8782 9.25932 21.8772 11.9005C21.875 17.3509 17.4408 21.7853 11.9925 21.7853ZM20.4052 3.48773C18.1599 1.2398 15.1739 0.00128304 11.9925 0C5.43736 0 0.102301 5.33471 0.0996495 11.8918C0.0987941 13.9879 0.646396 16.0337 1.68711 17.8373L0 24L6.30443 22.3462C8.04154 23.2937 9.99728 23.7931 11.9877 23.7937H11.9926C18.547 23.7937 23.8825 18.4585 23.8852 11.9013C23.8864 8.72361 22.6505 5.73566 20.4052 3.48777"/> </g>    
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com/studio_resnicylashes_adler?igshid=MzRlODBiNWFlZA==" class="nav__socials-link">
+                            <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav__socials__img">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"/>  
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>        
+                                <g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"/> <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"/> </g> 
+                            </svg>
+                        </a>
+                    </div>     
+                    <button class="btn-close-mobile-nav">
+                        <img src="./img/icons/close.svg" alt="close-menu" class="btn-close-mobile-nav__img" width="35">
+                    </button>      
+                </div>  
+                <button class="btn-open-mobile-nav">
+                    <img src="./img/icons/burger.svg" alt="open-menu" class="btn-open-mobile-nav__img" width="35">
+                </button> 
+            </div>
+        </div>
+    </nav>
+
+    <!-- <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__desc">
+                    <h1 class="title-1">
+                        <span>Студия</span> <br> Маргариты <br> Кочуровой</h1>
+                    <div class="header__text">
+                        <p>Сделайте свои ресницы и брови <br> визитной карточкой вашего облика.</p>
+                    </div>
+                    <a href="#price-services" class="btn-middle">Наши услуги</a>
+                </div>
+                <div class="header__background">
+                    <div class="header__img-border"></div>
+                    <img src="./img/header/header-bg.jpg" alt="Коррекция бровей" width="400" height="400" class="header__img">
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__desc">
+                    <h1 class="title-1">
+                        <span>Студия Красоты</span> <br> Маргариты <br> Трегубовой</h1>
+                    <div class="header__text">
+                        <p>Сделайте свои ресницы и брови <br> визитной карточкой вашего облика.</p>
+                    </div>
+                    <a href="#price-services" class="btn-middle">Наши услуги</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="about-us" id="about-us">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="title-2">О нас</h2>
+                    <img src="./img/icons/architecture.svg" alt="architecture" width="40">
+                </div>
+                <div class="about-us__row">
+                    <div class="about-us__content">
+                        <div class="about-us__img">
+                            <img src="./img/about-us/about-bg.jpeg" alt="работа с бровями" width="100%">
+                        </div>
+                        <div class="about-us__text">
+                            <p>Мы - команда профессионалов, преданная искусству красоты ресниц и бровей. Наше призвание - подчеркивать вашу естественную красоту и преображать ваш взгляд.</p>
+                            <p>Наши мастера обладают глубокими знаниями и профессиональными навыками, чтобы создать индивидуальный и неповторимый облик, соответствующий вашим желаниям и особенностям лица.</p>
+                            <p>Наша миссия - помочь вам почувствовать себя более уверенно и привлекательно, и мы гордимся тем, что делаем это с любовью и заботой.</p>
+                            <p>Мы с нетерпением ждем вашего визита и возможности создать для вас невероятную красоту ресниц и бровей."</p>
+                        </div>
+                    </div>
+                    <div class="about-us__blessings">
+                        <h3 class="title-3 about-us__blessings-title">Почему люди выбирают нас</h3>
+                        <div class="about-us__blessings-wrapper">
+                            <div class="blessing">
+                                <img src="./img/icons/certificate.svg" alt="certificate" class="blessing__icon">
+                                <h4 class="title-4 blessing__title">Профессиональный <br> опыт</h4>
+                                <div class="blessing__text">
+                                    <p> Мы обладаем богатым опытом и профессиональной квалификацией в области ухода за ресницами и бровями. Наши мастера постоянно совершенствуют свои навыки, чтобы предоставлять вам лучшие услуги.</p>
+                                </div>
+                            </div>
+                            <div class="blessing">
+                                <img src="./img/icons/handshake.svg" alt="handshake" class="blessing__icon">
+                                <h4 class="title-4 blessing__title">Индивидуальный <br> подход</h4>
+                                <div class="blessing__text">
+                                    <p>Мы понимаем, что каждый клиент уникален, и мы придаем важность индивидуальным пожеланиям и особенностям. Наша команда работает с вами, чтобы создать образ, который подходит именно вам.</p>
+                                </div>
+                            </div>
+                            <div class="blessing">
+                                <img src="./img/icons/premium.svg" alt="premium" class="blessing__icon" width="70" height="70">
+                                <h4 class="title-4 blessing__title">Высококачественные <br> материалы</h4>
+                                <div class="blessing__text">
+                                    <p>Мы используем только самые качественные и безопасные материалы в нашей работе. Это гарантирует долговечность и безопасность наших процедур.</p>
+                                </div>
+                            </div>
+                            <div class="blessing">
+                                <img src="./img/icons/candles.svg" alt="candles" class="blessing__icon">
+                                <h4 class="title-4 blessing__title">Комфорт и <br> релаксация</h4>
+                                <div class="blessing__text">
+                                    <p>Мы создаем спокойную и расслабляющую атмосферу, где вы можете отдохнуть и насладиться процедурой. Мы уделяем внимание вашему комфорту и стремимся сделать ваше посещение приятным и незабываемым.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+        <section class="price-services" id="price-services">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="title-2">Услуги и цены</h2>
+                    <img src="./img/icons/architecture.svg" alt="architecture" width="40">
+                </div>
+                <div class="price-services__content">
+                    <div class="price-services__row">
+                        <div class="price-services__img">
+                            <img src="./img/gallery/img-3.jpg" alt="eyelash and eyebrow care">
+                        </div>
+                        <div class="price-services__desc">
+                            <h4 class="title-4">Объём</h4>
+                            <table class="price-services__table">
+                                <tr><td>классический</td><td>1900 р.</td></tr>
+                                <tr><td>полуторный (1,5D)</td><td>2100 р.</td></tr>
+                                <tr><td>двойной (2D)</td><td>2300 р.</td></tr>
+                                <tr><td>двойной + (2,5D)</td><td>2400 р.</td></tr>
+                                <tr><td>тройной (3D)</td><td>2500 р.</td></tr>
+                                <tr><td>тройной + (3,5D)</td><td>2600 р.</td></tr>
+                                <tr><td>четверной (4D)</td><td>2700 р.</td></tr>
+                                <tr><td>пятерной (5D)</td><td>2800 р.</td></tr>
+                                <tr><td>голливудский</td><td>3300 р.</td></tr>
+                                <tr><td>уголки</td><td>1400 р.</td></tr>
+                                <tr><td>коррекция любого объема</td><td>1600 р.</td></tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="price-services__row">        
+                        <div class="price-services__desc">
+                            <h4 class="title-4">Эффект</h4>
+                            <table class="price-services__table">
+                                <tr><td>Изгиб M, L, L+</td><td>100 р.</td></tr>
+                                <tr><td>Ким Кардашьян</td><td>200 р.</td></tr>
+                                <tr><td>Мокрый эффект</td><td>200 р.</td></tr>
+                                <tr><td>Омбре</td><td>200 р.</td></tr>
+                                <tr><td>цветные ресницы</td><td>200 р.</td></tr>
+                            </table>
+                        </div>
+                        <div class="price-services__img">
+                            <img src="./img/gallery/img-2.jpg" alt="eyelash and eyebrow care">
+                        </div>
+                    </div>
+                    <div class="price-services__row">
+                        <div class="price-services__img">
+                            <img src="./img/gallery/img-1.jpg" alt="eyelash and eyebrow care">
+                        </div>
+                        <div class="price-services__desc">
+                            <h4 class="title-4">Снятие ресниц</h4>
+                            <table class="price-services__table">
+                                <tr>
+                                    <td>работа другого мастера с <br> последующим наращиванием</td>
+                                    <td>300 р.</td>
+                                </tr>
+                                <tr>
+                                    <td>работа другого мастера без <br> последующего наращивания</td>
+                                    <td>400 р.</td>
+                                </tr>
+                                <tr>
+                                    <td>работа нашего мастера без <br> последующего наращивания</td>
+                                    <td>400 р.</td>
+                                </tr>
+                                <tr>
+                                    <td>работа нашего мастера с <br> последующим наращиванием</td>
+                                    <td>бесплатно</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="price-services__row">
+                        <div class="price-services__desc">
+                            <h4 class="title-4">Ламинирование ресниц</h4>
+                            <table class="price-services__table">
+                                <tr><td>ламинирование</td><td>1500 р.</td></tr>
+                                <tr><td>ламинирование + Ботокс</td><td>1700 р.</td></tr>
+                            </table>
+                        </div>
+                        <div class="price-services__img">
+                            <img src="./img/gallery/img-12.jpeg" alt="eyelash and eyebrow care">
+                        </div>
+                    </div>
+                    <div class="price-services__row">
+                        <div class="price-services__img">
+                            <img src="./img/gallery/img-11.jpg" alt="eyelash and eyebrow care">
+                        </div>
+                        <div class="price-services__desc">
+                            <h4 class="title-4">Брови</h4>
+                            <table class="price-services__table">
+                                <tr><td>коррекция + окрашивание хной</td><td>1000 р.</td></tr>
+                                <tr><td>коррекция + окрашивание краской</td><td>1000 р.</td></tr>
+                                <tr><td>долговременная укладка</td><td>1700 р.</td></tr>
+                                <tr><td>перманентный макияж</td><td>6000 р.</td></tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="price-services__link-to-instagram">
+                        <a href="https://instagram.com/studio_resnicylashes_adler?igshid=MzRlODBiNWFlZA==" class="link-to-instagram">смотреть в инстаграме</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="masters" id="our-team">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="title-2">Наша команда</h2>
+                    <img src="./img/icons/architecture.svg" alt="architecture" width="40">
+                </div>
+                <div class="masters__row">
+
+                    <div class="masters__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="masters__swiper-slide swiper-slide">
+                                <div class="master">
+                                    <img src="./img/team/img-1.jpeg" alt="мастер" class="master__img">
+                                    <h4 class="title-4 master__name">Маргарита</h4>
+                                    <span class="master__profession">Топ Мастер</span>
+                                    <!-- <div class="master__social">
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/whatsapp.svg" alt="whatsapp">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/mail.svg" alt="mail">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/instagram.svg" alt="instagram">
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="masters__swiper-slide swiper-slide">
+                                <div class="master">
+                                    <img src="./img/team/img-2.jpeg" alt="мастер" class="master__img">
+                                    <h4 class="title-4 master__name">Наталья</h4>
+                                    <span class="master__profession">Топ Мастер</span>
+                                    <!-- <div class="master__social">
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/whatsapp.svg" alt="whatsapp">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/mail.svg" alt="mail">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/instagram.svg" alt="instagram">
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="masters__swiper-slide swiper-slide">
+                                <div class="master">
+                                    <img src="./img/team/img-3.jpeg" alt="мастер" class="master__img">
+                                    <h4 class="title-4 master__name">Анастасия</h4>
+                                    <span class="master__profession">Топ Мастер</span>
+                                    <!-- <div class="master__social">
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/whatsapp.svg" alt="whatsapp">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/mail.svg" alt="mail">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/instagram.svg" alt="instagram">
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="masters__swiper-slide swiper-slide">
+                                <div class="master">
+                                    <img src="./img/team/img-4.jpeg" alt="мастер" class="master__img">
+                                    <h4 class="title-4 master__name">Вероника</h4>
+                                    <span class="master__profession">Топ Мастер</span>
+                                    <!-- <div class="master__social">
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/whatsapp.svg" alt="whatsapp">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/mail.svg" alt="mail">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/instagram.svg" alt="instagram">
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="masters__swiper-slide swiper-slide">
+                                <div class="master">
+                                    <img src="./img/team/img-5.jpg" alt="мастер" class="master__img">
+                                    <h4 class="title-4 master__name">Диана</h4>
+                                    <span class="master__profession">Топ Мастер</span>
+                                    <!-- <div class="master__social">
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/whatsapp.svg" alt="whatsapp">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/mail.svg" alt="mail">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/instagram.svg" alt="instagram">
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="masters__swiper-slide swiper-slide">
+                                <div class="master">
+                                    <img src="./img/team/img-6.jpg" alt="мастер" class="master__img">
+                                    <h4 class="title-4 master__name">Екатерина</h4>
+                                    <span class="master__profession">Топ Мастер</span>
+                                    <!-- <div class="master__social">
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/whatsapp.svg" alt="whatsapp">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/mail.svg" alt="mail">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/instagram.svg" alt="instagram">
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>          
+                            <div class="masters__swiper-slide swiper-slide">
+                                <div class="master">
+                                    <img src="./img/team/img-7.jpg" alt="мастер" class="master__img">
+                                    <h4 class="title-4 master__name">Ника</h4>
+                                    <span class="master__profession">Топ Мастер</span>
+                                    <!-- <div class="master__social">
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/whatsapp.svg" alt="whatsapp">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/mail.svg" alt="mail">
+                                        </a>
+                                        <a href="#!" class="master__social-link">
+                                            <img src="./img/icons/instagram.svg" alt="instagram">
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masters__swiper-pagination swiper-pagination"></div>
+                        <div class="masters__swiper-button-prev swiper-button-prev"></div>
+                        <div class="masters__swiper-button-next swiper-button-next"></div>
+                    </div>
+         
+                </div>
+            </div>
+        </section>
+
+        <section class="education" id="education">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="title-2">Обучение</h2>
+                    <img src="./img/icons/architecture.svg" alt="architecture" width="40">
+                </div>
+                <div class="education__row">
+                    <div class="education__img">
+                        <img src="./img/education/img-1.jpg" alt="Курсы бровей и ресниц">
+                    </div>
+                    <div class="education__desc">
+                        <p><span>"Курс по уходу за ресницами и бровями"</span> - это практический обучающий программный курс, который предназначен для тех, кто желает овладеть искусством создания и поддержания привлекательных и ухоженных ресниц и бровей. В рамках этого курса вы узнаете основы ухода, методы формирования, дизайна и макияжа ресниц и бровей, а также научитесь проводить профессиональные процедуры и консультировать клиентов. Наш курс поможет вам развить практические навыки и уверенность в этой увлекательной области красоты.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=79530882595&text&type=phone_number&app_absent=0" class="education__desc-btn">записаться</a>
+                    </div>
+                    <div class="education__img">
+                        <img src="./img/education/img-1.jpg" alt="Курсы бровей и ресниц">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-work" id="our-work">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="title-2">Наши работы</h2>
+                    <img src="./img/icons/architecture.svg" alt="architecture" width="40">
+                </div>
+                <div class="our-work__row">
+                    <div class="our-work__sliders">
+                        <div class="work-slider">
+                            <img src="./img/gallery/img-1.jpg" width="100%" height="500" alt="eyelash and eyebrow care">
+                        </div>                
+                        <div class="work-slider">
+                            <img src="./img/gallery/img-2.jpg" width="100%" height="500" alt="eyelash and eyebrow care">
+                        </div>
+                        <div class="work-slider">
+                            <img src="./img/gallery/img-3.jpg" width="100%" height="500" alt="eyelash and eyebrow care">
+                        </div>
+                        <div class="work-slider">
+                            <img src="./img/gallery/img-4.jpg" width="100%" height="500" alt="eyelash and eyebrow care">
+                        </div>
+                        <div class="work-slider">
+                            <img src="./img/gallery/img-5.jpg" width="100%" height="500" alt="eyelash and eyebrow care">
+                        </div>
+                        <div class="work-slider">
+                            <img src="./img/gallery/img-6.jpg" width="100%" height="500" alt="eyelash and eyebrow care">
+                        </div>
+                        <div class="work-slider">
+                            <img src="./img/gallery/img-7.jpg" width="100%" height="500" alt="eyelash and eyebrow care">
+                        </div>
+                        <div class="work-slider">
+                            <img src="./img/gallery/img-8.jpg" width="100%" height="500" alt="eyelash and eyebrow care">
+                        </div>
+                        <div class="work-slider">
+                            <img src="./img/gallery/img-9.jpg" width="100%" height="500" alt="eyelash and eyebrow care">
+                        </div>
+                        <div class="work-slider">
+                            <img src="./img/gallery/img-10.jpg" width="100%" height="500" alt="eyelash and eyebrow care">
+                        </div>
+    
+                        <a class="our-work__sliders-prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="our-work__sliders-next" onclick="plusSlides(1)">❯</a>
+    
+                        <div class="our-work__sliders-row">
+                            <div class="our-work__sliders-column">
+                                <img class="demo" src="./img/gallery/img-1.jpg"  onclick="currentSlide(1)" alt="eyelash and eyebrow care">
+                            </div>
+                            <div class="our-work__sliders-column">
+                                <img class="demo" src="./img/gallery/img-2.jpg"  onclick="currentSlide(2)" alt="eyelash and eyebrow care" width="100%" height="100">
+                            </div>
+                            <div class="our-work__sliders-column">
+                                <img class="demo" src="./img/gallery/img-3.jpg"  onclick="currentSlide(3)" alt="eyelash and eyebrow care" width="100%" height="100">
+                            </div>
+                            <div class="our-work__sliders-column">
+                                <img class="demo" src="./img/gallery/img-4.jpg"  onclick="currentSlide(4)" alt="eyelash and eyebrow care" width="100%" height="100">
+                            </div>
+                            <div class="our-work__sliders-column">
+                                <img class="demo" src="./img/gallery/img-5.jpg"  onclick="currentSlide(5)" alt="eyelash and eyebrow care" width="100%" height="100">
+                            </div>
+                            <div class="our-work__sliders-column">
+                                <img class="demo" src="./img/gallery/img-6.jpg"  onclick="currentSlide(6)" alt="eyelash and eyebrow care" width="100%" height="100">
+                            </div>
+                            <div class="our-work__sliders-column">
+                                <img class="demo" src="./img/gallery/img-7.jpg"  onclick="currentSlide(7)" alt="eyelash and eyebrow care" width="100%" height="100">
+                            </div>
+                            <div class="our-work__sliders-column">
+                                <img class="demo" src="./img/gallery/img-8.jpg"  onclick="currentSlide(8)" alt="eyelash and eyebrow care" width="100%" height="100">
+                            </div>
+                            <div class="our-work__sliders-column">
+                                <img class="demo" src="./img/gallery/img-9.jpg"  onclick="currentSlide(9)" alt="eyelash and eyebrow care" width="100%" height="100">
+                            </div>
+                            <div class="our-work__sliders-column">
+                                <img class="demo" src="./img/gallery/img-10.jpg"  onclick="currentSlide(10)" alt="eyelash and eyebrow care" width="100%" height="100">
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="our-work__link-to-instagram">
+                        <a href="https://instagram.com/studio_resnicylashes_adler?igshid=MzRlODBiNWFlZA==" class="link-to-instagram">смотреть в инстаграме</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="title-2">Отзывы</h2>
+                    <img src="./img/icons/architecture.svg" alt="architecture" width="40">
+                </div>
+                <div class="reviews__row">                        
+                    <div class="review__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="review__swiper-slide swiper-slide">
+                                <div class="review-card">
+                                    <div class="review-card__stars">
+                                        <img src="./img/icons/stars.svg" alt="stars">
+                                    </div>
+                                    <div class="review-card__text">
+                                        <p>Хочу поблагодарить мастера Наталью. Года 2 назад случайно попала к ней, и теперь за ресничками только сюда. Очень качественно, реснички держатся долго, Наталья прекрасный мастер. Отдельно хочу отметить студию, чисто, ухоженно, приятная музыка и в центре Адлера.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__swiper-slide swiper-slide">
+                                <div class="review-card">
+                                    <div class="review-card__stars">
+                                        <img src="./img/icons/stars.svg" alt="stars">
+                                    </div>
+                                    <div class="review-card__text">
+                                        <p>Была на наращивании у мастера Веры, не разу не пожалела, что к ней записалась. С таким трепетом, с такой душой я даже уснула, хотя никогда не сплю на ресницах. Буду ходить только к Вере она чудесна.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__swiper-slide swiper-slide">
+                                <div class="review-card">
+                                    <div class="review-card__stars">
+                                        <img src="./img/icons/stars.svg" alt="stars">
+                                    </div>
+                                    <div class="review-card__text">
+                                        <p>Сегодня была на ресничках у мастера Анастасии. Я просто в восторге. Безумно понравились реснички. Спасибо большое, салон отличный, комфортный и очень дружелюбный и приветливый персонал. Теперь только к вам.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__swiper-slide swiper-slide">
+                                <div class="review-card">
+                                    <div class="review-card__stars">
+                                        <img src="./img/icons/stars.svg" alt="stars">
+                                    </div>
+                                    <div class="review-card__text">
+                                        <p>Хожу уже много лет. Самые лучшие мастера. Реснички и брови делаю только у них. Пробовала других мастеров и все равно возвращалась сюда. Девочки умнички. Быстро делают, носятся долго. Всем советую.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__swiper-slide swiper-slide">
+                                <div class="review-card">
+                                    <div class="review-card__stars">
+                                        <img src="./img/icons/stars.svg" alt="stars">
+                                    </div>
+                                    <div class="review-card__text">
+                                        <p>Могу смело заявить, что за долгие годы наращивания ресниц последние 4 года остаюсь преданной только своим феям. И не смотря на то, что глазки мои достаточно чувствительны сами по себе, только в этом салоне к ним нашли особый подход, здесь самые лучшие мастера!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__swiper-pagination swiper-pagination"></div>
+                        <div class="review__swiper-button-prev swiper-button-prev"></div>
+                        <div class="review__swiper-button-next swiper-button-next"></div>
+                    </div>
+                    <div class="reviews__link-to-instagram">
+                        <a href="https://instagram.com/studio_resnicylashes_adler?igshid=MzRlODBiNWFlZA==" class="link-to-instagram">смотреть в инстаграме</a>
+                    </div>            
+                </div>        
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="title-2">Контакты</h2>
+                    <img src="./img/icons/architecture.svg" alt="architecture" width="40">
+                </div>
+                <div class="contacts__row">
+                    <div class="contacts__content">
+                        <div class="contacts__content-text">
+                            <p>Мы всегда рады помочь вам и ответить на все ваши вопросы. Вы можете связаться с нами следующими способами:</p>
+                        </div>
+                        <div class="contacts__content-list">
+                            <a href="tel:79951815937">
+                                <img src="./img/icons/phone.svg" alt="phone" width="40">
+                                +7 (995) 181 59 37
+                            </a>
+                            <a href="https://api.whatsapp.com/send/?phone=79530882595&text&type=phone_number&app_absent=0">
+                                <img src="./img/icons/whatsapp.svg" alt="whatsapp" width="40">
+                                +7 (953) 088 25 95
+                            </a>
+                            <a href="mailto:serf68296@gmail.com">
+                                <img src="./img/icons/mail.svg" alt="mail" width="40">
+                                serf68296@gmail.com
+                            </a>
+                            <a href="https://instagram.com/studio_resnicylashes_adler?igshid=MzRlODBiNWFlZA==">
+                                <img src="./img/icons/instagram.svg" alt="instagram" width="40">
+                                studio_resnicylashes_adler
+                            </a>
+                            <span>
+                                <img src="./img/icons/address.svg" alt="address" width="40">
+                                ул. Свердлова 53, 3 этаж <br> кабинет 6,  салон Шанель
+                            </span>
+                            <span>
+                                <img src="./img/icons/clock.svg" alt="clock" width="40">
+                                Рабочие часы: 9:00 - 19:00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab2585986fe0dfbb58e3f3d52a6c405d5139f0a93f75a6ba66848ff86a812480e&amp;source=constructor" width="100%" height="350" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="logo footer__logo">
+                    <img src="./img/logo/footer-logo.png" alt="Студия Маргариты Кочуровой" class="logo__img" width="240">
+                </div>
+                <ul class="footer__nav"> 
+                    <li class="footer__nav-item">
+                        <a href="#about-us" class="footer__nav-link">О нас</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#price-services" class="footer__nav-link">Услуги и цены</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#our-team" class="footer__nav-link">Наша команда</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#education" class="footer__nav-link">Обучение</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#our-work" class="footer__nav-link">Наши работы</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#reviews" class="footer__nav-link">Отзывы</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#contacts" class="footer__nav-link">Контакты</a>
+                    </li> 
+                </ul>
+                <ul class="footer__socials">
+                    <li class="footer__socials-item">
+                        <a href="tel:79951815937" class="footer__socials-link">
+                            <img src="./img/icons/phone.svg" alt="phone" class="footer__socials-img" width="25">
+                            <span class="footer__socials-text">+7 (995) 181 59 37</span>
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a href="https://api.whatsapp.com/send/?phone=79530882595&text&type=phone_number&app_absent=0" class="footer__socials-link">
+                            <img src="./img/icons/whatsapp.svg" alt="whatsapp" class="footer__socials-img" width="25">
+                            <span class="footer__socials-text">+7 (953) 088 25 95</span>
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a href="mailto:serf68296@gmail.com" class="footer__socials-link">
+                            <img src="./img/icons/mail.svg" alt="mail" class="footer__socials-img" width="25">
+                            <span class="footer__socials-text">serf68296@gmail.com</span>
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a href="https://instagram.com/studio_resnicylashes_adler?igshid=MzRlODBiNWFlZA==" class="footer__socials-link">
+                            <img src="./img/icons/instagram.svg" alt="instagram" class="footer__socials-img" width="25">
+                            <span class="footer__socials-text">studio_resnicylashes_adler</span>
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <span class="footer__socials-link socials-address">
+                            <img src="./img/icons/address.svg" alt="address" class="footer__socials-img" width="25">
+                            <span class="footer__socials-text">ул. Свердлова 53, 3 этаж <br> кабинет 6,  салон Шанель</span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+  
+    <script src="./swiper/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/our-work-slider.js"></script>
+
+</body>
+</html>
